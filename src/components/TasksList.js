@@ -11,13 +11,15 @@ function TasksList() {
   };
 
   return (
-    <div className="w-6/12">
+    <> 
+      <div className="w-6/12">
+        <h1 className="text-center text-xl">Todo ReduxToolkit</h1>
       <header className="flex justify-between items-center py-4">
-        <h1>
+        <h2>
           {
             tasks.length === 0 ? ("Add new task") : (`Tasks (${tasks.length})`)
           }
-        </h1>
+        </h2>
 
         <Link
           to="/create-task"
@@ -52,6 +54,7 @@ function TasksList() {
         ))}
       </div>
     </div>
+    </>
   );
 }
 
