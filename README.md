@@ -5,6 +5,7 @@ This is a simple Web application CRUD (Create, Read, Update, Delete) using React
 ## Installation
 
 ```
+git clone https://github.com/nicod12/Todo-Redux-Toolkit.git
 cd redux-tcrud
 npm i
 npm start
